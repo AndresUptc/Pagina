@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu Cita | Arbórea Togüi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/log2.jpg" alt="Logo">
+        <ul class="menu">
+            <li><a href="index.html#hero">Inicio</a></li>
+            <li><a href="index.html#spaces">Espacios</a></li>
+            <li><a href="index.html#nature">Galería</a></li>
+            <li><a href="index.html#location">Ubicación</a></li>
+            <li><a href="index.html#contact">Contacto</a></li>
+        </ul>
+    </header>
+
+    <!-- Sección del formulario -->
+    <section class="form-section">
+        <h2>Reserva tu cita en Arbórea Togüi</h2>
+        <form id="contact-form" action="submit_form.php" method="POST">
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Número de Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Fecha de Reserva:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Reservar Ahora</button>
+        </form>
+        <a href="index.html" class="back-link">Volver a la página principal</a>
+    </section>
+
+    <!-- Sección de footer -->
+    <footer>
+        <p>&copy; 2024 Arbórea Togüi - "La magia de la naturaleza en un solo lugar".</p>
+        <p>"Donde los sueños encuentran un refugio."</p>
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.instagram.com/arborea_toguiboy/" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100084675006637" target="_blank">
+                    <img src="img/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@arborea.mountain?_t=8i13F9x3jdd&_r=1" target="_blank">
+                    <img src="img/tik-tok.png" alt="TikTok">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
